@@ -5,14 +5,14 @@
             <h3>Realizar Pergunta</h3>
         </div>
         <div class="card-body">
-            <form>
-                <label for="">Título</label>
-                <input type="text" placeholder="Título" class="form-control">
+            <form method="POST" action="/salvarpergunta">
+                <label for="titulo">Título</label>
+                <input type="text" name="titulo" placeholder="Título" class="form-control">
                 <br>
-                <label for="">Descrição</label>
-                <textarea placeholder="Descreva sua pergunta aqui" class="form-control"></textarea>
+                <label for="descricao">Descrição</label>
+                <textarea name="descricao" placeholder="Descreva sua pergunta aqui" class="form-control"></textarea>
                 <br>
-                <button type="button" class="btn btn-outline-dark">Perguntar</button>
+                <button type="submit" class="btn btn-outline-dark">Perguntar</button>
             </form>
         </div>
     </div>

@@ -19,6 +19,15 @@ textarea:focus, input:focus, select:focus {
     margin-top: 5vh;
 }
 
+#perguntas {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color:#ced4da; /* Nova cor de fundo */
+    padding: 20px; /* Adicione algum espaçamento interno para melhorar a aparência */
+    box-shadow: 0 0 10px rgba(209, 209, 209, 0.1); /* Adicione uma sombra sutil */
+}
+
+
 .navbar-light {
     background-color: #a4a8a9;
 }
