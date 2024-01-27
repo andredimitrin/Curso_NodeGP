@@ -1,0 +1,39 @@
+body {
+    background-color: #959a9c;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#formulario-pergunta textarea:focus,
+#formulario-pergunta input:focus,
+#formulario-pergunta select:focus {
+    box-shadow: 0 0 5px #a0a0a0;
+    outline: none;
+}
+
+#formulario-pergunta {
+    margin-top: 5vh;
+}
+
+.navbar-light {
+    background-color: #a4a8a9;
+}
+
+.btn-outline-dark {
+    color: #22272e;
+    border-color: #22272e;
+}
+
+input, textarea {
+    border: 1px solid #ced4da;
+    transition: box-shadow 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 5px #a0a0a0;
+    outline: none;
+}
