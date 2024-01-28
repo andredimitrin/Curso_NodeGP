@@ -3,15 +3,15 @@
 <body>
     <%- include('partials/navbar.ejs') %>
 
-
     <div class="container">
         <hr>
         <div class="card-title" id="perguntas">
             <h1>Perguntas</h1>
             <hr>
             <a href="/perguntar" class="btn btn-outline-dark" text-align="center">Perguntar</a>
-        </div>       
+        </div>
         <hr>
+
         <% perguntas.forEach(pergunta => { %>
         <br>
         <div class="card">
@@ -32,6 +32,4 @@
         <% }); %>
 
     </div>
-
-
 </body>
